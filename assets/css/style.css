@@ -1,0 +1,42 @@
+body {
+	background-image: url("https://static.businessinsider.com/image/555e0c97eab8ea5e75d948f8/image.jpg");
+	color: #ffffff;
+	font-family: "Permanent Marker", cursive;
+	text-align: center;
+}
+
+.game {
+	width: 600px;
+	border-radius: 20px;
+	padding: 10px 50px 50px 50px;
+}
+
+.game h1 {
+	font-size: 80px;
+	padding: 2px 0px;
+}
+
+.game #questions, .game #timeRemaining, .game #check, .game #answer,
+.game #scoreCard, .game #right, .game #wrong, .game #unanswered {
+	font-size: 30px;
+}
+
+button {
+	background: none;
+	border: none;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 30px;
+	color: #ffffff;
+	font-family: "Permanent Marker", cursive;
+	padding: 10px 10px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #c39bd3;
+}
+
+button:focus {
+	outline: 0;
+}
